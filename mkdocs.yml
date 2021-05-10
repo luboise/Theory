@@ -1,0 +1,50 @@
+site_name: Theory
+
+nav:
+    - Home: index.md
+    - Techniques and Info:
+        - "GN/WN and soflan basics": resources\soflanbasics.md
+        - "Floating Hi-speed": resources\float_hs.md
+        - "Regular Hi-speed": resources\reg_hs.md
+        - "Regular vs Floating Hi-speed": resources\regvsfloat.md
+        - "Advanced - Pre-Floating": resources\prefloating.md
+    - Chart Directory:
+        - "IIDX13 - DistorteD":
+            - "Concertino in Blue": resources\chartdirectory\iidx13\CiB.md
+            - "DUE TOMORROW": resources\chartdirectory\iidx13\DT.md
+            - "Ganymede": resources\chartdirectory\iidx13\Ganymede.md
+        - "IIDX16 - Empress":
+            - "Marie Antoinette": resources\chartdirectory\iidx16\MA.md
+            - "Y&Co. is dead or alive": resources\chartdirectory\iidx16\YCo.md
+            - "卑弥呼": resources\chartdirectory\iidx16\himiko.md
+        - "IIDX19 - Lincle":
+            - "NNRT": resources\chartdirectory\iidx19\NNRT.md
+            - "quaver♪": resources\chartdirectory\iidx19\quaver.md
+            - "SA.YO.NA.RA. SUPER STAR": resources\chartdirectory\iidx19\SNSS.md
+            - "Session 12 -Esther-": resources\chartdirectory\iidx19\S12E.md
+            - "TITANS RETURN": resources\chartdirectory\iidx19\TR.md
+            - "聖人の塔": resources\chartdirectory\iidx19\Snt.md
+        - "IIDX25 - Cannon Ballers":
+            - "DropZ-Line-": resources\chartdirectory\iidx25\DZL.md
+            - "EMERALDAS": resources\chartdirectory\iidx25\EME.md
+            - "FUTURE is Dead": resources\chartdirectory\iidx25\FiD.md
+            - "Hella Deep": resources\chartdirectory\iidx25\HD.md
+            - "2 Player": resources\chartdirectory\iidx25\2P.md
+        - "IIDX26 - Rootage":
+            - "50th Memorial Songs -Flagship medley-": resources\chartdirectory\iidx26\50M.md
+            - "EVANESCENT": resources\chartdirectory\iidx26\EV.md
+            - "Lethal Weapon": resources\chartdirectory\iidx26\LW.md
+            - "Particle Arts": resources\chartdirectory\iidx26\PArts.md
+            - "ruin of opals": resources\chartdirectory\iidx26\ruinofopals.md 
+            - "The Sealer ～ア・ミリアとミリアの民～": resources\chartdirectory\iidx26\TS.md
+            - "ToyCube pf.(RX-Ver.S.P.L.)": resources\chartdirectory\iidx26\ToyC.md
+            - "花冠 feat.Aikapin": resources\chartdirectory\iidx26\yeayeyeye.md
+        - "IIDX27 - Heroic Verse":
+            - "GHOST": resources\chartdirectory\iidx27\GHOST.md
+            - "Punching Down (IIDX Mix)": resources\chartdirectory\iidx27\PunchingDown.md
+            - "Silly Love": resources\chartdirectory\iidx27\SillyLove.md
+            - "Theory": resources\chartdirectory\iidx27\Theory.md
+            - "ガヴリールドロップキック": resources\chartdirectory\iidx27\GabrielDropkick.md
+            - "華麗なる大犬円舞曲": resources\chartdirectory\iidx27\Kareinaru_ooinu_enbukyoku.md
+            - "俺ら東京さ行ぐだ": resources\chartdirectory\iidx27\ora_tokyo_sa_iguda.md
+            - "シャムシールの舞": resources\chartdirectory\iidx27\Shamshir_no_mai.md

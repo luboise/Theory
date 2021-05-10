@@ -2,6 +2,7 @@
 
 Welcome to Theory, an all encompassing soflan guide for IIDX 27 charts and earlier. Here you will find soflan techniques, as well as varying individual guides for soflan charts that I hope you will find useful.
 
+This website was previously hosted at http://testtheory.altervista.org.
 
 ## Aim
 

@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Regular Hi-speed - Theory</title>
+        <title>Lift and Formulae (IMPORTANT FOR LIFT PLAYERS) - Theory</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -49,7 +49,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Regular Hi-speed</a>
+    <a href="../reg_hs/" class="dropdown-item">Regular Hi-speed</a>
 </li>
                                     
 <li>
@@ -57,7 +57,7 @@
 </li>
                                     
 <li>
-    <a href="../lift_formulae/" class="dropdown-item">Lift and Formulae (IMPORTANT FOR LIFT PLAYERS)</a>
+    <a href="./" class="dropdown-item active">Lift and Formulae (IMPORTANT FOR LIFT PLAYERS)</a>
 </li>
                                     
 <li>
@@ -247,12 +247,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../float_hs/" class="nav-link">
+                                <a rel="prev" href="../regvsfloat/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../regvsfloat/" class="nav-link">
+                                <a rel="next" href="../prefloating/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -274,17 +274,25 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#regular-hi-speed" class="nav-link">Regular Hi-speed</a>
+            <li class="nav-item" data-level="1"><a href="#lift-and-lane-cover-formulae" class="nav-link">Lift and Lane Cover formulae</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#changing-speed-gear-shifting" class="nav-link">Changing speed (Gear Shifting)</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#floating" class="nav-link">Floating</a>
+            <li class="nav-item" data-level="2"><a href="#what-is-lift" class="nav-link">What is Lift?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#toggling-the-sudden-lane-cover" class="nav-link">Toggling the SUDDEN+ Lane Cover</a>
+            <li class="nav-item" data-level="2"><a href="#converting-for-lift-players" class="nav-link">Converting for lift players</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#disabling-lane-cover-general-formula" class="nav-link">Disabling lane cover general formula</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#lane-cover-formulae" class="nav-link">Lane Cover Formulae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#finding-optimal-sudden-white-numbers-for-disabling-sudden" class="nav-link">Finding optimal SUDDEN+ White Numbers for disabling SUDDEN+</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -295,46 +303,83 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="regular-hi-speed">Regular Hi-speed</h1>
-<p>Regular Hi-speed in <strong>Heroic Verse</strong> ranges from <strong>1-20 set speeds</strong> (displayed in a table below). <br />
-Regular Hi-speed in <strong>Rootage</strong> ranges from <strong>1-10 set speeds.</strong></p>
-<p>Previous IIDX versions use a multiplier in combination with the songs BPM to give you your Green Number. <br />
-This is referred to as Classic Hi-speed.</p>
-<p>From Rootage onwards, similar to floating Hi-speed, regular Hi-speed is also consistent between songs. It doesn't matter if your chart is 140BPM or 300BPM, your Green Number will start at whatever value is shown in the table associated with your game.</p>
-<p><img alt="High speed value to GN" src="../reg_speed_table.png" title="Hi-speed reference table for Heroic Verse" /></p>
-<h2 id="changing-speed-gear-shifting">Changing speed (Gear Shifting)</h2>
-<p>Gear shifting works completely differently for regular Hi-speed as opposed to floating Hi-speed. While floating Hi-speed always changes your Hi-speed by 0.5x, gear shifting for regular Hi-speed just changes your Hi-speed between speeds 1-20 on the table.</p>
-<p>This means that</p>
+<h1 id="lift-and-lane-cover-formulae">Lift and Lane Cover formulae</h1>
+<h2 id="what-is-lift">What is Lift?</h2>
+<p>Lift is an option that can be (but doesn't have to be) used in conjunction with SUDDEN+. It allows you to raise the judgement line from the bottom of the screen and also uses a White Number. Similar to SUDDEN+, your lift White Number has a max of 1000.</p>
+<p><img alt="lift image" src="../lift_example.png" title="Lift example with 70WN" /></p>
+<p>Your Lift height can be changed by holding start and moving your turntable with your SUDDEN+ cover off (double tap start to enable). If your SUDDEN+ lane cover is enabled, this will move that instead.</p>
+<p>While using Floating Hi-speed, although Lift will affect exact ratios used to formulate White Numbers, your SUDDEN+ lane cover will function the same way. The most notable similarity is that with Lift off, trying to float with your lane cover off will destroy your Base GN. Similarly, altering your Lift height will destroy your Base GN.</p>
+<p><strong>Advantages of Lift:</strong></p>
 <ul>
-<li>Regular Hi-speed does not have a Base GN, only a current speed</li>
-<li>Strategies that gear shift but require retaining a Base GN will need workarounds</li>
+<li>Allows you to effectively change the size of the playfield</li>
+<li>Can make strategies where the lane cover is turned off more readable due to the smaller lane</li>
+<li>Helpful so that you don't have to powerstance as hard at the arcade</li>
 </ul>
-<p>Gear shifting in Regular Hi-speed tends to change your Green Number by a smaller amount than it would using Floating Hi-speed, making it useful for charts where the BPM change is relatively small (less than 35BPM difference)</p>
-<p>While it may seem like the lack of a Base GN limits you (and in a lot of cases it does), there are still techniques that you can accomplish with Regular Hi-speed</p>
-<h2 id="floating">Floating</h2>
-<p>Although regular Hi-speed doesn't use decimal Hi-speeds, it does have its own version of <a href="../float_hs/#floating">floating</a>. Rather than the player having a Base GN that they can always fall back on by floating, each step from 1-20 in regular Hi-speed has its OWN Base GN. Think of it like this.</p>
+<p><strong>Disadvantages of Lift:</strong></p>
 <ul>
-<li>Speed 18 has a Green Number of 300</li>
-<li>Speed 19 has a Green Number of 281</li>
+<li>Complicates exact values that are used for calculating soflan strategies</li>
+<li>You may need to disable Lift for charts that have extreme soflan to read them</li>
 </ul>
-<p>Suppose you are playing on Speed 18 and the song's BPM changes setting you to 100GN (very fast and completely unreadable). Gear shifting up to speed 19 would overwrite this change, setting your Green Number to 281.</p>
-<p>Combine this initial speed change with a speed change back to 18, and you've effectively achieved a float using regular Hi-speed.</p>
-<p><strong>WHEN TO USE "FLOATING":</strong></p>
+<h2 id="converting-for-lift-players">Converting for lift players</h2>
+<p>Any White Number given in this guide is given assuming that you are using 0 lift. If you are using Lift, you can convert the White Number in the guide to the White Number for your lift amount by multiplying it by <br />
+<code>(1000 - Lift) / 1000</code></p>
+<p>Details about this formula are listed below.</p>
+<h2 id="disabling-lane-cover-general-formula">Disabling lane cover general formula</h2>
+<p>If you want to turn off your lane cover to perfectly accomodate for a speedup, find out the old BPM, new BPM and use this formula.</p>
+<p><code>WN = (1000 - Lift) * (1 - OLDBPM / NEWBPM)</code></p>
+<p>Details for this formula are also listed below.</p>
+<h2 id="lane-cover-formulae">Lane Cover Formulae</h2>
+<p>What exactly happens to your GN when your lane cover is disabled/enabled? Is there a formula for this that we could use find exact values to set our WN to?</p>
+<p>Let's cover this first with Lift disabled (0 WN) for simplicity.</p>
+<p>The total length of the lane is 1000 units. This is why your SUDDEN+ and Lift lane covers have a max range of 1000.</p>
+<p><strong>How does Green Number change when disabling SUDDEN+ ?</strong></p>
+<p>The way your Green Number changes when disabling the lane cover is modelled by: <br />
+<code>1000 / (1000 - WN) * current GN</code>.</p>
 <ul>
-<li>When you can safely float without breaking combo</li>
-<li>When you forget the chart has soflan in it (just float to reset)</li>
-<li>You can <strong>not</strong> use regular Hi-speed for <a href="../prefloating/">Pre-floating</a>. If you value this niche technique, you'll need to use <a href="../float_hs/">Floating Hi-speed</a> instead.</li>
+<li>
+<p>If your WN was 500 (halfway down), turning it off would double your reaction time. <br />
+From the formula, 1000 / (1000 - 500) = 1000/500 = 2 * GN. This checks out.</p>
+</li>
+<li>
+<p>If your WN was 666 (2/3 down), turning it off would triple your reaction time. <br />
+From the formula, 1000 / (1000 - 666) ≈ 3 * GN. This checks out.</p>
+</li>
 </ul>
-<h2 id="toggling-the-sudden-lane-cover">Toggling the SUDDEN+ Lane Cover</h2>
-<p>Switching the lane cover off functions identically to how it does for Floating Hi-speed. It sets your Green Number to <code>1000/(1000-x) * current GN</code>.</p>
-<p>However, switching the lane cover back on in Regular Hi-speed mode <strong>does not aumatically float</strong>. This could be good depending on if you want it, but can be a dealbreaker for charts that greatly benefit from automatically floating.</p>
-<p>Example charts: <a href="../chartdirectory/iidx16/MA/">Marie Antoinette</a>, <a href="../chartdirectory/iidx25/FiD/">FUTURE is Dead</a> (Method 2), <a href="../chartdirectory/iidx16/YCo/">Y&amp;Co. is dead or alive</a></p>
-<p><strong>WHEN TO DISABLE LANE COVER:</strong></p>
+<p>Think of this as the ratio between the lane cover (WN) and maximum value of the lane cover (1000).</p>
+<p>This is best illustrated by this graph of how the formula affects 280GN. You can see how the function is bound between [0, 1000).</p>
+<p>The X-value of each coordinate is your WN and the y-value is your new Green Number. As your lane cover approaches 1000, your new GN approaches infinity. (At 1000 WN, the lane is completely invisible, so this makes sense).</p>
+<p><img alt="formula affect graph pog" src="../formula_graph1.png" title="How turning off lane cover affects GN." /></p>
+<p><strong>Enabling SUDDEN+ on Regular Hi-speed</strong></p>
+<p>The way your Green Number changes when enabling the lane cover is modelled by <br />
+<code>(1000 - WN) / 1000  * current GN</code> <br />
+This formula is effectively the inverse change of the formula for disabling the lane cover.</p>
 <ul>
-<li>When the song speeds up without an avenue to float easily, turn off lane cover before</li>
-<li>When you're about to enter a dense speedup</li>
-<li>When the BPM returns to the same value after the soflan section (you can not float by turning the lane cover back on like you can with Floating Hi-speed)</li>
-</ul></div>
+<li>If your WN was 500 (halfway down), turning this lane cover on would halve your reaction time, halving your GN. From the formula, (1000 - 500) / 1000 * GN = 1/2 * GN. This checks out.</li>
+<li>If your WN was 666 (2/3 down), turning it on would cut your reaction time to a third, and in turn cut your GN to a third. From the formula, (1000 - 666) * GN ≈ 1/3 * GN. This checks out.</li>
+</ul>
+<p>The reverse function is linear, and you can clearly see from this graph how your GN is bound between your current GN, for example 280GN, and 0 (it can only get faster).</p>
+<p>The X-value of each coordinate is your WN and the y-value is your new Green Number. As your lane cover approaches 1000, your new GN approaches 0. (At 1000 WN, the lane is completely invisible, which means you'd have 0ms reaction time, and subsequently 0GN).</p>
+<p><img alt="formula affect graph pog" src="../formula_graph2.png" title="How turning on lane cover affects GN." /></p>
+<p><strong>Enabling SUDDEN+ on floating Hi-speed</strong></p>
+<p>On Floating Hi-speed, enabling the lane cover will float back to your Base GN, so the formula isn't usable here.</p>
+<p><strong>Lane Cover Formulae differences for Lift</strong></p>
+<p>As lift changes the length of the playfield, how would the Lift value affect the formula?</p>
+<p>Well, the original formula is bound from [0, 1000). What we want is to bind between [0, 1000 - Lift), as the new size of the playfield is given by 1000 - Lift. </p>
+<p>For example, if you had a lift of 200, instead of having 1000 units of space you would have 1000 - 200 = 800, meaning your new formulae would be <code>800 / (800 - WN) * current GN</code> for disabling SUDDEN+ and <code>(800 - WN) / 800  * current GN</code> for enabling SUDDEN+.</p>
+<p>More generally, the formulae for any lift amount (including 0 for lift off) are:</p>
+<ul>
+<li>Disabling SUDDEN+: <code>(1000 - Lift) / (1000 - Lift - WN) * current GN</code></li>
+<li>Enabling SUDDEN+: <code>(1000 - Lift - WN) / (1000 - Lift) * current GN</code></li>
+</ul>
+<h2 id="finding-optimal-sudden-white-numbers-for-disabling-sudden">Finding optimal SUDDEN+ White Numbers for disabling SUDDEN+</h2>
+<p>If you've seen <a href="../chartdirectory/iidx27/Theory/#method-1-float-lane-cover-off-optimal">Method 1 for Theory</a>, you may be wondering how I came to the White Number 306 for the SUDDEN+ value.</p>
+<p>Let's obtain this number from scratch.</p>
+<p><img alt="theory do be speedin up doe" src="../theory_speedup.png" title="Theory speedup" /></p>
+<p>Theory speeds up from 102BPM to 146BPM, and we want to find a SUDDEN+ cover such that turning it off will give us our Base GN. This means that we want our lane cover ratio for disabling the lane cover to be equal to the ratio between these 2 BPM values.</p>
+<p>To be more explicit, we want <code>(1000 - Lift) / (1000 - Lift - WN) = 147/102</code></p>
+<p>This can be rearranged to give <code>WN = (1000 - Lift) * (1 - 102/147)</code></p>
+<p>If we plug in my lift value of 0, we get a final result of 1000 * (45/147) = 306.12 <br />
+Round this number to 306 for your lane cover and that's your ideal lane cover for this situation.</p></div>
             </div>
         </div>
 

@@ -57,6 +57,10 @@
 </li>
                                     
 <li>
+    <a href="../lift_formulae/" class="dropdown-item">Lift and Formulae (IMPORTANT FOR LIFT PLAYERS)</a>
+</li>
+                                    
+<li>
     <a href="../prefloating/" class="dropdown-item">Advanced - Pre-Floating</a>
 </li>
                                 </ul>
@@ -248,7 +252,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../prefloating/" class="nav-link">
+                                <a rel="next" href="../lift_formulae/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -289,7 +293,52 @@
 
 <h1 id="regular-hi-speed-vs-floating-hi-speed">Regular Hi-speed vs Floating Hi-speed</h1>
 <p>Here is a comparison table for performing different actions between the 2 Hi-speed modes.</p>
-<p><img alt="Regular vs floating comp table" src="../action_table.png" title="Regular Hi-speed vs Floating Hi-speed" /></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Floating hi-speed</th>
+<th>Regular hi-speed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gear shift up</strong></td>
+<td>Hi-Speed = Hi-Speed + 0.5x<br>(Max 10.00x)</td>
+<td>Decrease GN and floats</td>
+</tr>
+<tr>
+<td><strong>Gear shift down</strong></td>
+<td>Hi-Speed = Hi-Speed - 0.5x<br>(Min 0.5x)</td>
+<td>Increase GN and floats</td>
+</tr>
+<tr>
+<td><strong>TT + Start</strong></td>
+<td>Return to Base GN (float)</td>
+<td>Changes WN<br>- If WN goes up, GN goes down<br>- If WN goes down, GN goes up</td>
+</tr>
+<tr>
+<td><strong>Lane cover off</strong></td>
+<td>GN = 1000/(1000-WN) * GN</td>
+<td>GN = 1000 / (1000-LIFT-WN) * GN</td>
+</tr>
+<tr>
+<td><strong>Lane cover on</strong></td>
+<td>Return to Base GN (float)</td>
+<td>GN = (1000-LIFT-WN) / 1000 * GN</td>
+</tr>
+<tr>
+<td><strong>BPM Change</strong></td>
+<td>GN = OLD/NEW * GN</td>
+<td>GN = OLD/NEW * GN</td>
+</tr>
+<tr>
+<td><strong>Change Modes</strong></td>
+<td>Switch to Floating:<br>Creates Base GN from current GN</td>
+<td>Switch to Regular:<br>Snaps GN to nearest regular hi-speed amount<br>Destroys Base GN to use locked amount of speed</td>
+</tr>
+</tbody>
+</table>
 <h2 id="floating-hi-speed">Floating Hi-speed</h2>
 <p><strong>Advantages:</strong></p>
 <ul>
@@ -308,6 +357,7 @@
 <li>More simple, especially helpful for new players</li>
 <li>Allows changing GN mid chart without gear shifting (SUDDEN+)</li>
 <li>Gear shifts are in smaller increments, which makes gear shifting before soflan more precise</li>
+<li>Floating does not affect your WN</li>
 </ul>
 <p><strong>Disadvantages:</strong></p>
 <ul>

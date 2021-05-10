@@ -9,7 +9,9 @@ Chart played by drchoko. Best 11 in the game don't @ me
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/hW0rRuQO85Y/0.jpg)](https://youtu.be/hW0rRuQO85Y?t=48 "Theory SPA 皿ハンドクラップ")
 
 ## Method 1: Float + Lane cover off (optimal)
-Play with lane cover at about 301 (+- 100 is fine). Float at blue so that the scratch section is at correct speed, turn off lane cover at purple so that the speedup isn't too fast and turn lane cover back on at pink to refloat for a nice ending. This method is by far the most difficult but most rewarding.
+Play with lane cover at about 306 (+- 100 is fine). If you use Lift, use the formula ``(1000 - Lift) * (45/147)`` to find your optimal SUDDEN+ WN instead of using 306.
+
+Float at blue so that the scratch section is at correct speed, turn off lane cover at purple so that the speedup isn't too fast and turn lane cover back on at pink to refloat for a nice ending. This method is by far the most difficult but most rewarding.
 
 ![Optimal Theory](theory_optimal.png "Optimal Theory Instructions")
 

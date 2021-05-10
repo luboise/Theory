@@ -40,7 +40,6 @@ Combine this initial speed change with a speed change back to 18, and you've eff
 - When you forget the chart has soflan in it (just float to reset)
 - You can **not** use regular Hi-speed for [Pre-floating](prefloating.md). If you value this niche technique, you'll need to use [Floating Hi-speed](float_hs.md) instead.
 
-
 ## Toggling the SUDDEN+ Lane Cover
 
 Switching the lane cover off functions identically to how it does for Floating Hi-speed. It sets your Green Number to ``1000/(1000-x) * current GN``.

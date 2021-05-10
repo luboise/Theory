@@ -10,6 +10,8 @@ This Green Number is what all techniques in this guide will refer to as a Base G
 - You can switch between Floating hi-speed and regular highspeed by **holding Start and pressing Effect**. This is the only way to change your Base GN when using SUDDEN+
 - While you are in Floating hi-speed mode, **start + turntable will no longer change your Green number**
 
+Floating Hi-speed has a maximum base Hi-speed of 10.0x, and a minimum Hi-speed of 0.5x. This means that if you put your lane cover low enough, the game might not let you use the Green Number that you want (for example, [DAY DREAM](chartdirectory/iidx20/DD.md))
+
 ## Floating
 
 If you are holding Start and move your turntable, no matter what Green number the chart has changed to, it will be reset back to your Base GN. This is referred to as **Floating** (not to be confused with Floating Hi-speed itself). Shown below is a video of IIDXtom playing 少年A [SPA].

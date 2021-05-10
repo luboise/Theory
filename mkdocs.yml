@@ -7,7 +7,9 @@ nav:
         - "Floating Hi-speed": resources\float_hs.md
         - "Regular Hi-speed": resources\reg_hs.md
         - "Regular vs Floating Hi-speed": resources\regvsfloat.md
+        - "Lift and Formulae (IMPORTANT FOR LIFT PLAYERS)": resources\lift_formulae.md
         - "Advanced - Pre-Floating": resources\prefloating.md
+
     - Chart Directory:
         - "IIDX13 - DistorteD":
             - "Concertino in Blue": resources\chartdirectory\iidx13\CiB.md

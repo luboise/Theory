@@ -32,3 +32,8 @@ Cannon ballers soflan charts added
 V1.6 - Regular
 
 Regular Hi-speed information added, as well as comparisons between both major Hi-speed options
+
+
+V1.7 - Lift Formulae
+
+Wrote up lift formulae and lane cover removal formulae for optimal soflan'ing. Edited the page for Theory to have the correct value of 306, instead of 301.

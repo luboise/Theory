@@ -47,7 +47,7 @@ The total length of the lane is 1000 units. This is why your SUDDEN+ and Lift la
 **How does Green Number change when disabling SUDDEN+ ?**
 
 The way your Green Number changes when disabling the lane cover is modelled by:   
-``1000 / (1000 - WN) * current GN``.
+``New GN = 1000 / (1000 - WN) * current GN``.
 
 - If your WN was 500 (halfway down), turning it off would double your reaction time.   
 From the formula, 1000 / (1000 - 500) = 1000/500 = 2 * GN. This checks out.
@@ -66,7 +66,7 @@ The X-value of each coordinate is your WN and the y-value is your new Green Numb
 **Enabling SUDDEN+ on Regular Hi-speed**
 
 The way your Green Number changes when enabling the lane cover is modelled by   
-``(1000 - WN) / 1000  * current GN``   
+``New GN = (1000 - WN) / 1000  * current GN``   
 This formula is effectively the inverse change of the formula for disabling the lane cover.
 
 - If your WN was 500 (halfway down), turning this lane cover on would halve your reaction time, halving your GN. From the formula, (1000 - 500) / 1000 * GN = 1/2 * GN. This checks out.
@@ -88,12 +88,12 @@ As lift changes the length of the playfield, how would the Lift value affect the
 
 Well, the original formula is bound from [0, 1000). What we want is to bind between [0, 1000 - Lift), as the new size of the playfield is given by 1000 - Lift. 
 
-For example, if you had a lift of 200, instead of having 1000 units of space you would have 1000 - 200 = 800, meaning your new formulae would be ``800 / (800 - WN) * current GN`` for disabling SUDDEN+ and ``(800 - WN) / 800  * current GN`` for enabling SUDDEN+.
+For example, if you had a lift of 200, instead of having 1000 units of space you would have 1000 - 200 = 800, meaning your new formulae would be ``New GN = 800 / (800 - WN) * current GN`` for disabling SUDDEN+ and ``New GN = (800 - WN) / 800  * current GN`` for enabling SUDDEN+.
 
 More generally, the formulae for any lift amount (including 0 for lift off) are:
 
-- Disabling SUDDEN+: ``(1000 - Lift) / (1000 - Lift - WN) * current GN``
-- Enabling SUDDEN+: ``(1000 - Lift - WN) / (1000 - Lift) * current GN``
+- Disabling SUDDEN+ : ``New GN = (1000 - Lift) / (1000 - Lift - WN) * current GN``
+- Enabling SUDDEN+ : ``New GN = (1000 - Lift - WN) / (1000 - Lift) * current GN``
 
 ## Finding optimal SUDDEN+ White Numbers for disabling SUDDEN+
 

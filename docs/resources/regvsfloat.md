@@ -7,8 +7,8 @@ Here is a comparison table for performing different actions between the 2 Hi-spe
 | **Gear shift up**                               | Hi-Speed = Hi-Speed + 0.5x<br>(Max 10.00x)             | Decrease GN and floats                                                                                               |
 | **Gear shift down**                             | Hi-Speed = Hi-Speed - 0.5x<br>(Min 0.5x)               | Increase GN and floats                                                                                               |
 | **TT + Start**                                  | Return to Base GN (float)                              | Changes WN<br>- If WN goes up, GN goes down<br>- If WN goes down, GN goes up                                         |
-| **Lane cover off**                              | GN = 1000/(1000-WN) * GN                               | GN = 1000 / (1000-LIFT-WN) * GN                                                                                      |
-| **Lane cover on**                               | Return to Base GN (float)                              | GN = (1000-LIFT-WN) / 1000 * GN                                                                                      |
+| **Lane cover off**                              | ---------------------------------------->              | GN = (1000-LIFT) / (1000-LIFT-WN) * GN                                                                                 |
+| **Lane cover on**                               | Return to Base GN (float)                              | GN = (1000-LIFT-WN) / (1000-LIFT) * GN                                                                               |
 | **BPM Change**                                  | GN = OLD/NEW * GN                                      | GN = OLD/NEW * GN                                                                                                    |
 | **Change Modes**                                | Switch to Floating:<br>Creates Base GN from current GN | Switch to Regular:<br>Snaps GN to nearest regular hi-speed amount<br>Destroys Base GN to use locked amount of speed  |
 

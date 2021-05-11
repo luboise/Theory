@@ -334,7 +334,7 @@
 <p>The total length of the lane is 1000 units. This is why your SUDDEN+ and Lift lane covers have a max range of 1000.</p>
 <p><strong>How does Green Number change when disabling SUDDEN+ ?</strong></p>
 <p>The way your Green Number changes when disabling the lane cover is modelled by: <br />
-<code>1000 / (1000 - WN) * current GN</code>.</p>
+<code>New GN = 1000 / (1000 - WN) * current GN</code>.</p>
 <ul>
 <li>
 <p>If your WN was 500 (halfway down), turning it off would double your reaction time. <br />
@@ -351,7 +351,7 @@ From the formula, 1000 / (1000 - 666) ≈ 3 * GN. This checks out.</p>
 <p><img alt="formula affect graph pog" src="../formula_graph1.png" title="How turning off lane cover affects GN." /></p>
 <p><strong>Enabling SUDDEN+ on Regular Hi-speed</strong></p>
 <p>The way your Green Number changes when enabling the lane cover is modelled by <br />
-<code>(1000 - WN) / 1000  * current GN</code> <br />
+<code>New GN = (1000 - WN) / 1000  * current GN</code> <br />
 This formula is effectively the inverse change of the formula for disabling the lane cover.</p>
 <ul>
 <li>If your WN was 500 (halfway down), turning this lane cover on would halve your reaction time, halving your GN. From the formula, (1000 - 500) / 1000 * GN = 1/2 * GN. This checks out.</li>
@@ -365,11 +365,11 @@ This formula is effectively the inverse change of the formula for disabling the 
 <p><strong>Lane Cover Formulae differences for Lift</strong></p>
 <p>As lift changes the length of the playfield, how would the Lift value affect the formula?</p>
 <p>Well, the original formula is bound from [0, 1000). What we want is to bind between [0, 1000 - Lift), as the new size of the playfield is given by 1000 - Lift. </p>
-<p>For example, if you had a lift of 200, instead of having 1000 units of space you would have 1000 - 200 = 800, meaning your new formulae would be <code>800 / (800 - WN) * current GN</code> for disabling SUDDEN+ and <code>(800 - WN) / 800  * current GN</code> for enabling SUDDEN+.</p>
+<p>For example, if you had a lift of 200, instead of having 1000 units of space you would have 1000 - 200 = 800, meaning your new formulae would be <code>New GN = 800 / (800 - WN) * current GN</code> for disabling SUDDEN+ and <code>New GN = (800 - WN) / 800  * current GN</code> for enabling SUDDEN+.</p>
 <p>More generally, the formulae for any lift amount (including 0 for lift off) are:</p>
 <ul>
-<li>Disabling SUDDEN+: <code>(1000 - Lift) / (1000 - Lift - WN) * current GN</code></li>
-<li>Enabling SUDDEN+: <code>(1000 - Lift - WN) / (1000 - Lift) * current GN</code></li>
+<li>Disabling SUDDEN+ : <code>New GN = (1000 - Lift) / (1000 - Lift - WN) * current GN</code></li>
+<li>Enabling SUDDEN+ : <code>New GN = (1000 - Lift - WN) / (1000 - Lift) * current GN</code></li>
 </ul>
 <h2 id="finding-optimal-sudden-white-numbers-for-disabling-sudden">Finding optimal SUDDEN+ White Numbers for disabling SUDDEN+</h2>
 <p>If you've seen <a href="../chartdirectory/iidx27/Theory/#method-1-float-lane-cover-off-optimal">Method 1 for Theory</a>, you may be wondering how I came to the White Number 306 for the SUDDEN+ value.</p>

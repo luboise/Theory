@@ -97,7 +97,7 @@ More generally, the formulae for any lift amount (including 0 for lift off) are:
 
 ## Finding optimal SUDDEN+ White Numbers for disabling SUDDEN+
 
-If you've seen [Method 1 for Theory](chartdirectory\iidx27\Theory.md#method-1-float-lane-cover-off-optimal), you may be wondering how I came to the White Number 306 for the SUDDEN+ value.
+If you've seen [Method 1 for Theory](chartdirectory\iidx27\Th.md#method-1-float-lane-cover-off-optimal), you may be wondering how I came to the White Number 306 for the SUDDEN+ value.
 
 Let's obtain this number from scratch.
 

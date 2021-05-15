@@ -37,3 +37,9 @@ Regular Hi-speed information added, as well as comparisons between both major Hi
 V1.7 - Lift Formulae
 
 Wrote up lift formulae and lane cover removal formulae for optimal soflan'ing. Edited the page for Theory to have the correct value of 306, instead of 301.
+
+
+V1.8 - Sino
+
+Sinobuz charts added
+Theory chart filenames changed to match other styles (short abbreviated filenames)

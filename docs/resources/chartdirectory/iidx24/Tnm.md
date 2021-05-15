@@ -1,4 +1,4 @@
-# 月雪に舞う花のように
+# 月雪に舞う華のように
 
 Alternative titles: Tsukiyuki ni mau hana no youni
 

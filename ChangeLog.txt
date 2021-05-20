@@ -24,7 +24,7 @@ V1.4 - need to do future is dead lol
 EMERALDAS and DropZ-Line- added
 
 
-V1.5 - Cock and ballers
+V1.5 - CANNON BALLERS
 
 Cannon ballers soflan charts added
 
@@ -39,7 +39,13 @@ V1.7 - Lift Formulae
 Wrote up lift formulae and lane cover removal formulae for optimal soflan'ing. Edited the page for Theory to have the correct value of 306, instead of 301.
 
 
-V1.8 - Sino
+V1.8 - Sino/copula
 
-Sinobuz charts added
+Sinobuz and copula charts added
 Theory chart filenames changed to match other styles (short abbreviated filenames)
+
+
+V1.9 - Tricoro
+
+Tricoro charts added
+File that referenced DAY DREAM now correctly references the page (didn't exist before

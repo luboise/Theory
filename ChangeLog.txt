@@ -48,4 +48,9 @@ Theory chart filenames changed to match other styles (short abbreviated filename
 V1.9 - Tricoro
 
 Tricoro charts added
-File that referenced DAY DREAM now correctly references the page (didn't exist before
+File that referenced DAY DREAM now correctly references the page (didn't exist before)
+
+V2.0 - Resort Anthem
+
+Resort anthem charts added
+File that referenced SABER WING now correctly references the page (didnt' exist before)

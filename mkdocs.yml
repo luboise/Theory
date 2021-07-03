@@ -1,4 +1,5 @@
 site_name: Theory
+site_url: https://theory.tools/
 
 nav:
     - Home: index.md
@@ -15,6 +16,10 @@ nav:
             - "Concertino in Blue": resources\chartdirectory\iidx13\CiB.md
             - "DUE TOMORROW": resources\chartdirectory\iidx13\DT.md
             - "Ganymede": resources\chartdirectory\iidx13\Ganymede.md
+        - "IIDX14 - GOLD":
+            - "2hot2eat": resources\chartdirectory\iidx14\2h2e.md
+            - "Blind Justice ~Torn souls, Hurt Faiths~": resources\chartdirectory\iidx14\BJ.md
+            - "Fascination MAXX": resources\chartdirectory\iidx14\FM.md
         - "IIDX16 - Empress":
             - "Marie Antoinette": resources\chartdirectory\iidx16\MA.md
             - "Y&Co. is dead or alive": resources\chartdirectory\iidx16\YCo.md

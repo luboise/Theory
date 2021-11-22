@@ -14,10 +14,12 @@ All chart previews and click tracks listed are credited but linked without permi
 
 Any images of charts you see (the images that I usually circle in blue and purple) are taken from [Textage](https://textage.cc/score/). Excellent website and resource for analysing patterns, rolling randoms and working out soflan tech.
 
-## Contact
+## Contact/Contribution
 
-If you have any feedback about the guide you can contact me at 
+Theory.tools is open source, and if you have any tech that you would like to see on it please check out the [how to contribute](resources\help\help.md) page.
 
-- Discord: Hethan#6939 (heavily preferred)
-- Email: disposable12435@gmail.com
-- Twitter: @Hethan_
+If you have any feedback about the guide you can also contact me at
+
+-  Discord: Hethan#6939 (heavily preferred)
+-  Email: disposable12435@gmail.com
+-  Twitter: @Hethan\_

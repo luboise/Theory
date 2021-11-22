@@ -1,0 +1,2 @@
+For SYNC-ANTHEM, set the high BPM GN to your preference, set WN so that HS is 2.41, hit white keys until 0.50, hit black keys until 2.50, start song, float during the gap.
+Or 1.93 -> 0.50 -> 2.00, or 2.89 -> 0.50 -> 3.00, whichever is closer to your preferred WN.

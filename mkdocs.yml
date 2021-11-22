@@ -2,85 +2,86 @@ site_name: Theory
 site_url: https://theory.tools/
 
 nav:
-    - Home: index.md
-    - Techniques and Info:
+   - Home: index.md
+   - Techniques and Info:
         - "GN/WN and soflan basics": resources\soflanbasics.md
         - "Floating Hi-speed": resources\float_hs.md
         - "Regular Hi-speed": resources\reg_hs.md
         - "Regular vs Floating Hi-speed": resources\regvsfloat.md
         - "Lift and Formulae (IMPORTANT FOR LIFT PLAYERS)": resources\lift_formulae.md
         - "Advanced - Pre-Floating": resources\prefloating.md
+        - "How you can contribute!": resources\help\help.md
 
-    - Chart Directory:
+   - Chart Directory:
         - "IIDX13 - DistorteD":
-            - "Concertino in Blue": resources\chartdirectory\iidx13\CiB.md
-            - "DUE TOMORROW": resources\chartdirectory\iidx13\DT.md
-            - "Ganymede": resources\chartdirectory\iidx13\Ganymede.md
+             - "Concertino in Blue": resources\chartdirectory\iidx13\CiB.md
+             - "DUE TOMORROW": resources\chartdirectory\iidx13\DT.md
+             - "Ganymede": resources\chartdirectory\iidx13\Ganymede.md
         - "IIDX14 - GOLD":
-            - "2hot2eat": resources\chartdirectory\iidx14\2h2e.md
-            - "Blind Justice ~Torn souls, Hurt Faiths~": resources\chartdirectory\iidx14\BJ.md
-            - "Fascination MAXX": resources\chartdirectory\iidx14\FM.md
+             - "2hot2eat": resources\chartdirectory\iidx14\2h2e.md
+             - "Blind Justice ~Torn souls, Hurt Faiths~": resources\chartdirectory\iidx14\BJ.md
+             - "Fascination MAXX": resources\chartdirectory\iidx14\FM.md
         - "IIDX16 - Empress":
-            - "Marie Antoinette": resources\chartdirectory\iidx16\MA.md
-            - "Y&Co. is dead or alive": resources\chartdirectory\iidx16\YCo.md
-            - "卑弥呼": resources\chartdirectory\iidx16\himiko.md
+             - "Marie Antoinette": resources\chartdirectory\iidx16\MA.md
+             - "Y&Co. is dead or alive": resources\chartdirectory\iidx16\YCo.md
+             - "卑弥呼": resources\chartdirectory\iidx16\himiko.md
         - "IIDX18 - Resort Anthem":
-            - "New Castle Legions": resources\chartdirectory\iidx18\NCL.md
-            - "SABER WING": resources\chartdirectory\iidx18\SW.md
-            - "Session 9 -Chronicles-": resources\chartdirectory\iidx18\S9C.md
-            - "ZETA～素数の世界と超越者～": resources\chartdirectory\iidx18\ZET.md
-            - "ラクエン Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix": resources\chartdirectory\iidx18\RAK.md
+             - "New Castle Legions": resources\chartdirectory\iidx18\NCL.md
+             - "SABER WING": resources\chartdirectory\iidx18\SW.md
+             - "Session 9 -Chronicles-": resources\chartdirectory\iidx18\S9C.md
+             - "ZETA～素数の世界と超越者～": resources\chartdirectory\iidx18\ZET.md
+             - "ラクエン Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix": resources\chartdirectory\iidx18\RAK.md
         - "IIDX19 - Lincle":
-            - "NNRT": resources\chartdirectory\iidx19\NNRT.md
-            - "quaver♪": resources\chartdirectory\iidx19\quaver.md
-            - "SA.YO.NA.RA. SUPER STAR": resources\chartdirectory\iidx19\SNSS.md
-            - "Session 12 -Esther-": resources\chartdirectory\iidx19\S12E.md
-            - "TITANS RETURN": resources\chartdirectory\iidx19\TR.md
-            - "聖人の塔": resources\chartdirectory\iidx19\Snt.md
+             - "NNRT": resources\chartdirectory\iidx19\NNRT.md
+             - "quaver♪": resources\chartdirectory\iidx19\quaver.md
+             - "SA.YO.NA.RA. SUPER STAR": resources\chartdirectory\iidx19\SNSS.md
+             - "Session 12 -Esther-": resources\chartdirectory\iidx19\S12E.md
+             - "TITANS RETURN": resources\chartdirectory\iidx19\TR.md
+             - "聖人の塔": resources\chartdirectory\iidx19\Snt.md
         - "IIDX20 - Tricoro":
-            - "DAY DREAM": resources\chartdirectory\iidx20\DD.md
-            - "Holy Snow": resources\chartdirectory\iidx20\HS.md
-            - "JOMANDA": resources\chartdirectory\iidx20\JO.md
-            - "Sol Cosine Job 2": resources\chartdirectory\iidx20\SCJ.md
-            - "STULTI": resources\chartdirectory\iidx20\ST.md
-            - "SYNC-ANTHEM": resources\chartdirectory\iidx20\SA.md
-            - "音楽": resources\chartdirectory\iidx20\ON.md
-        - "IIDX23 - Copula": 
-            - "GET READY!!": resources\chartdirectory\iidx23\GR.md
-            - "NINJA IS DEAD IIDX ver.": resources\chartdirectory\iidx23\NID.md
-            - "POSSESSION": resources\chartdirectory\iidx23\POS.md
-            - "朝焼けから始まるボクらの小さな旅": resources\chartdirectory\iidx23\Asa.md
-            - "明鏡止水": resources\chartdirectory\iidx23\Mei.md
+             - "DAY DREAM": resources\chartdirectory\iidx20\DD.md
+             - "Holy Snow": resources\chartdirectory\iidx20\HS.md
+             - "JOMANDA": resources\chartdirectory\iidx20\JO.md
+             - "Sol Cosine Job 2": resources\chartdirectory\iidx20\SCJ.md
+             - "STULTI": resources\chartdirectory\iidx20\ST.md
+             - "SYNC-ANTHEM": resources\chartdirectory\iidx20\SA.md
+             - "音楽": resources\chartdirectory\iidx20\ON.md
+        - "IIDX23 - Copula":
+             - "GET READY!!": resources\chartdirectory\iidx23\GR.md
+             - "NINJA IS DEAD IIDX ver.": resources\chartdirectory\iidx23\NID.md
+             - "POSSESSION": resources\chartdirectory\iidx23\POS.md
+             - "朝焼けから始まるボクらの小さな旅": resources\chartdirectory\iidx23\Asa.md
+             - "明鏡止水": resources\chartdirectory\iidx23\Mei.md
         - "IIDX24 - Sinobuz":
-            - "AsiaN distractive": resources\chartdirectory\iidx24\Ad.md
-            - "Beat Juggling Mix": resources\chartdirectory\iidx24\BJM.md
-            - "BREAK OVER": resources\chartdirectory\iidx24\BO.md
-            - "nostos": resources\chartdirectory\iidx24\no.md
-            - "Sarutobi Champion is 拙者": resources\chartdirectory\iidx24\SC.md
-            - "Surf on the Light": resources\chartdirectory\iidx24\SotL.md
-            - "(This Is Not) The Angels": resources\chartdirectory\iidx24\TINTA.md
-            - "月雪に舞う華のように": resources\chartdirectory\iidx24\Tnm.md
+             - "AsiaN distractive": resources\chartdirectory\iidx24\Ad.md
+             - "Beat Juggling Mix": resources\chartdirectory\iidx24\BJM.md
+             - "BREAK OVER": resources\chartdirectory\iidx24\BO.md
+             - "nostos": resources\chartdirectory\iidx24\no.md
+             - "Sarutobi Champion is 拙者": resources\chartdirectory\iidx24\SC.md
+             - "Surf on the Light": resources\chartdirectory\iidx24\SotL.md
+             - "(This Is Not) The Angels": resources\chartdirectory\iidx24\TINTA.md
+             - "月雪に舞う華のように": resources\chartdirectory\iidx24\Tnm.md
         - "IIDX25 - Cannon Ballers":
-            - "DropZ-Line-": resources\chartdirectory\iidx25\DZL.md
-            - "EMERALDAS": resources\chartdirectory\iidx25\EME.md
-            - "FUTURE is Dead": resources\chartdirectory\iidx25\FiD.md
-            - "Hella Deep": resources\chartdirectory\iidx25\HD.md
-            - "2 Player": resources\chartdirectory\iidx25\2P.md
+             - "DropZ-Line-": resources\chartdirectory\iidx25\DZL.md
+             - "EMERALDAS": resources\chartdirectory\iidx25\EME.md
+             - "FUTURE is Dead": resources\chartdirectory\iidx25\FiD.md
+             - "Hella Deep": resources\chartdirectory\iidx25\HD.md
+             - "2 Player": resources\chartdirectory\iidx25\2P.md
         - "IIDX26 - Rootage":
-            - "50th Memorial Songs -Flagship medley-": resources\chartdirectory\iidx26\50M.md
-            - "EVANESCENT": resources\chartdirectory\iidx26\EV.md
-            - "Lethal Weapon": resources\chartdirectory\iidx26\LW.md
-            - "Particle Arts": resources\chartdirectory\iidx26\PArts.md
-            - "ruin of opals": resources\chartdirectory\iidx26\ruinofopals.md 
-            - "The Sealer ～ア・ミリアとミリアの民～": resources\chartdirectory\iidx26\TS.md
-            - "ToyCube pf.(RX-Ver.S.P.L.)": resources\chartdirectory\iidx26\ToyC.md
-            - "花冠 feat.Aikapin": resources\chartdirectory\iidx26\yeayeyeye.md
+             - "50th Memorial Songs -Flagship medley-": resources\chartdirectory\iidx26\50M.md
+             - "EVANESCENT": resources\chartdirectory\iidx26\EV.md
+             - "Lethal Weapon": resources\chartdirectory\iidx26\LW.md
+             - "Particle Arts": resources\chartdirectory\iidx26\PArts.md
+             - "ruin of opals": resources\chartdirectory\iidx26\ruinofopals.md
+             - "The Sealer ～ア・ミリアとミリアの民～": resources\chartdirectory\iidx26\TS.md
+             - "ToyCube pf.(RX-Ver.S.P.L.)": resources\chartdirectory\iidx26\ToyC.md
+             - "花冠 feat.Aikapin": resources\chartdirectory\iidx26\yeayeyeye.md
         - "IIDX27 - Heroic Verse":
-            - "GHOST": resources\chartdirectory\iidx27\GH.md
-            - "Punching Down (IIDX Mix)": resources\chartdirectory\iidx27\PD.md
-            - "Silly Love": resources\chartdirectory\iidx27\SL.md
-            - "Theory": resources\chartdirectory\iidx27\Th.md
-            - "ガヴリールドロップキック": resources\chartdirectory\iidx27\GD.md
-            - "華麗なる大犬円舞曲": resources\chartdirectory\iidx27\Koe.md
-            - "俺ら東京さ行ぐだ": resources\chartdirectory\iidx27\otsi.md
-            - "シャムシールの舞": resources\chartdirectory\iidx27\Snm.md
+             - "GHOST": resources\chartdirectory\iidx27\GH.md
+             - "Punching Down (IIDX Mix)": resources\chartdirectory\iidx27\PD.md
+             - "Silly Love": resources\chartdirectory\iidx27\SL.md
+             - "Theory": resources\chartdirectory\iidx27\Th.md
+             - "ガヴリールドロップキック": resources\chartdirectory\iidx27\GD.md
+             - "華麗なる大犬円舞曲": resources\chartdirectory\iidx27\Koe.md
+             - "俺ら東京さ行ぐだ": resources\chartdirectory\iidx27\otsi.md
+             - "シャムシールの舞": resources\chartdirectory\iidx27\Snm.md

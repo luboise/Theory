@@ -1,11 +1,12 @@
 # (This Is Not) The Angels
 
 ## Chart Preview
+
 Chart played by DOLCE.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/NIUmriWlhm8/0.jpg)](https://youtu.be/NIUmriWlhm8?t=10 "(This Is Not) The Angels (A) MAX-16 / played by DOLCE. / IIDX24 SINOBUZ [手元付き]")
 
-## Memorisation
+## ★★★☆☆ Memorisation
 
 This chart has various, but repetitive, bursts of slow reading. The easiest way around this is to just recognise these patterns and learn how to react to them.
 
@@ -36,4 +37,3 @@ Whenever you see 4 scratch notes closely grouped together it is the exact same r
 If you are unsure of how fast this is, [here](https://youtu.be/NIUmriWlhm8?t=103) at 1:45 in the preview video you can see the pattern in action. The chart always has a gap after these scratches, so you have time to readjust back to the regular scroll speed.
 
 ![TINTA scratch](TINTA3.png "(This Is Not) The Angels slow reading scratches")
-

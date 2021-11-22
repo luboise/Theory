@@ -3,11 +3,12 @@
 Alternative Titles: Sanoyara SUPER STAR
 
 ## Chart Preview
+
 Chart played by gett
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/VykiYYDuiWY/0.jpg)](https://youtu.be/VykiYYDuiWY?t=57 "beatmania IIDX19 Lincle SA.YO.NA.RA. SUPER STAR(ANOTHER)")
 
-## Method 1: Gear shift (optimal)
+## ★★☆☆☆ Method 1: Gear shift (optimal)
 
 Adjust your lane cover so that your floating hi-speed is a multiple of 0.5 (0.5x, 1.0x, 1.5x, 2.0x, etc). If you can't do this, the strategy will still work just not with perfect double/half GN numbers.
 
@@ -19,6 +20,6 @@ Shift up at blue, shift down at purple. Be wary of accidentally floating, as thi
 
 ![sanoyara super star shift](SNSS.png "SNSS Gear Shift Instructions")
 
-## Method 2: No tech.
+## ★☆☆☆☆ Method 2: No tech.
 
 If you can comfortably read slow there isn't really a reason to go out of your way to tech this one. The slowdown is pretty tame, even for a SPA10.

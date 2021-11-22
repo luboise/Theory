@@ -8,9 +8,10 @@ How the website currently operates is the main branch contains markdown files an
 
 While I don't want to be too restrictive on changes, I do want this site to have a consistent look.
 
--  Each method must have a difficulty rating before it constructed using ASCII stars (☆★). This is a new change and will take some time to be implemented
+-  Each method must have a difficulty rating before it constructed using ASCII stars (☆★)
 -  Make sure you include a **timestamped** YouTube video of a chart if you are making a new page, as well as text stating "Played by \[player name\]"
 -  Use minimalist naming techniques (eg, dont say method 1 if there is only 1 method etc etc)
+-  You MUST include alternative titles for songs that aren't in japanese. This includes translations for katakana song names, and nicknames for songs (such as using scorpion fire)
 
 ## Guidelines for contributing
 

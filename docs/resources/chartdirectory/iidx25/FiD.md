@@ -1,15 +1,16 @@
 # FUTURE is Dead
 
 ## Chart Preview
+
 Chart played by DOLCE.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/BGNe20N_3Rg/0.jpg)](https://youtu.be/BGNe20N_3Rg?t=82 "[解説付き] FUTURE is Dead (A) MAX-54 & FC / played by DOLCE. / beatmania IIDX25 CANNON BALLERS")
 
-## Method 1: Pre-Float + Gear Shift (optional)
+## ★★★★★ Method 1: Pre-Float + Gear Shift (optional)
 
 Method 1 is more of a set and forget, and as so requires reading slow. If you want a more active method that doesn't require reading slow at the end of the chart, check out Method 2.
 
-To [pre-float](../../prefloating.md) this chart, 
+To [pre-float](../../prefloating.md) this chart,
 
 1. Set your Base GN to double what it usually is and gear shift back to your regular GN. This allows you to store the GN for the drop and float before the song speeds up
 2. Float at the final lone scratch before the BPM increases
@@ -21,7 +22,7 @@ After you get through the 220BPM section the chart will be back to 110BPM. Remem
 
 ![method 1 shifts](FiD2.png "FUTURE is Dead float method 1 shifts")
 
-## Method 2: DOLCE. (lane cover off + gear shift)
+## ★★★☆☆ Method 2: DOLCE. (lane cover off + gear shift)
 
 This method is more active than Method 1 and will require a bit more fiddling with lane covers and what not, but allows you to easily switch your lane cover back on at the end for a nice float.
 
@@ -35,13 +36,12 @@ After playing the 220BPM section, look for a comfortable spot to float. If you t
 
 ![slowdown](FiD4.png "FUTURE is Dead float spot 2")
 
-## Method 3: Remove lane cover only
+## ★★★★☆ Method 3: LIFT Substitute (optimal)
 
-While I personally don't use this because reading 500WN is uncomfortable for me, this might be helpful.
-
-1. Set your SUDDEN+ lane cover to half way down the lane (500WN if you don't use lift)
-2. Double tap start to turn off your lane cover before the drop
-3. Read the drop with 0 lane cover
-4. Double tap start to turn it back on after the drop
+1. Combine your sudden+ and any LIFT you have into your LIFT value
+2. Set your SUDDEN+ lane cover to half way down the lane
+3. Double tap start to turn off your lane cover before the drop
+4. Read the drop with 0 SUDDEN+
+5. Double tap start to turn it back on after the drop
 
 The float spots shown in the image above are good places to turn your lane cover back on after the final slowdown.

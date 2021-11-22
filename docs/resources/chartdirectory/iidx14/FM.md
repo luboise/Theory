@@ -1,6 +1,7 @@
 # Fascination MAXX
 
 ## Chart Preview
+
 Chart played by DOLCE.
 
 what can i say its the funny chart lmao
@@ -17,7 +18,7 @@ However, if you plan on playing for hard clear, a common strategy during the jac
 
 Let blue denote your dominant hand and red denote your non dominant hand.
 
-If you were to start that 4th jack section with your dominant hand, you'd have to start the last 2 on your non dominant hand. 
+If you were to start that 4th jack section with your dominant hand, you'd have to start the last 2 on your non dominant hand.
 
 ![JAXX LMAO SEE WHAT I DID THERE](JAXX.png "JAXX LMAO SEE WHAT I DID THERE")
 
@@ -34,9 +35,9 @@ In your head it should sound something like
 
 Everyone will have their own counting method, this is just my example. On with the tech.
 
-## Method 1: DOLCE. half lane cover regular hi-speed strategy
+## ★★★★★ Method 1: DOLCE. half lane cover regular hi-speed strategy
 
-What DOLCE. does utilises the fact that turning the lane cover back on when using regular hi-speed doesn't float. This means that if you adjust your GN to be double when the lane cover is halfway down your screen at the beginning, that if you turn the lane cover off you'll be at normal GN for the 400BPM section. 
+What DOLCE. does utilises the fact that turning the lane cover back on when using regular hi-speed doesn't float. This means that if you adjust your GN to be double when the lane cover is halfway down your screen at the beginning, that if you turn the lane cover off you'll be at normal GN for the 400BPM section.
 
 If that's confusing, here are some steps/a timeline of the chart. If you can't read without a lane cover, you may need to use lift to make the chart more readable.  
 If this strategy confuses you, take a look at how DOLCE. applies it in the chart preview.
@@ -55,7 +56,7 @@ Slow reading is required as well as memorisation.
 
 ![faxx cover on](FM1.png "da lane cover")
 
-## Method 2: Float it
+## ★☆☆☆☆ Method 2: Float it
 
 Just float it whenever it changes. Try to float as little as possible if you do.
 Gear shifting down a couple times right before the jacks in substitution for a float is heavily recommended however.

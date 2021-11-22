@@ -1,18 +1,18 @@
 # SABER WING
 
 ## Chart Preview
+
 Chart played by CHARM
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/uHGUVgGL8kM/0.jpg)](https://youtu.be/uHGUVgGL8kM?t=66 "[IIDX CHARM] SABER WING (A) 2841 MAX - 35")
 
-## Gear shift + memorise
+## ★★★★☆ Gear shift + memorise
 
 SABER WING has many stops in the beginning where the notes freeze for a second before coming down. The key thing to look for here is a chord with scratch, followed by another chord with scratch.
 
 ![saber wing stops](SW1.png "SABER WING stops") ![saber wing stops](SW2.png "SABER WING stops")
 
-
-After these stops, there is a 444BPM section with a single scratch in it, followed by a slowdown back to 74BPM. 
+After these stops, there is a 444BPM section with a single scratch in it, followed by a slowdown back to 74BPM.
 
 The strategy here is the to shift before the slowdown so that when it approaches you'll be at a normal hi-speed. Unfortunately, this means that you'll effectively be at around 64 GN before the notes approach and you're just about guaranteed to drop combo. **If you're aiming for FC, play on non-ran and literally memorise the first few notes of the slow section.**
 

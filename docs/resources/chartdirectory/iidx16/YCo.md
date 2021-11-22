@@ -1,13 +1,14 @@
 # Y&Co. is dead or alive
 
 ## Chart Preview
+
 Chart played by DOLCE.
 
 This, contesting with probably only op.31, is the holy grail of soflan charts.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/WFz77ftQAOE/0.jpg)](https://youtu.be/WFz77ftQAOE?t=84 "Y&Co. is dead or alive (A) MAX-105 [2851] / played by DOLCE. / beatmania IIDX25 CANNON BALLERS")
 
-## Method 1: 6 gear shift down + lane cover off + reading slow
+## ★★★★★ Method 1: 6 gear shift down + lane cover off + reading slow
 
 (This tech is for lightning model cabs and home controllers. The start button is not in an easy position to abuse on old cabs. Method 2 is likely required if you are playing on an old cab)
 
@@ -22,7 +23,7 @@ The easiest way (in my opinion) to do this is to hold start and hit 9 times, usi
 
 What this will do is shift you down by 10 (because of the 10 white key presses) and then shift you up by 4 (because of the 4 black key hits), leaving you at a net 6 down.
 
-![YCo dead or arive](YCo_chunk.png  "Y.Co chunk")
+![YCo dead or arive](YCo_chunk.png "Y.Co chunk")
 
 **BONUS:** Try and double tap start and hold it down on the second tap when you go for the gear shift chunk, before going for the chunk. This will turn your lane cover off before the gear shifts, and eliminate the need to turn it off later, and lets you focus all of the soflan down in a 2 second window.
 
@@ -34,14 +35,13 @@ After the hyper fast section (1 2 3 4 5 6 7 6 5 4) the chart will slow down to b
 
 After the final black note, turn your lane cover back on at the purple line for that sweet sweet auto float, and you are done. The rest of the chart should be at your regular Green Number. DOLCE. also turns the lane cover back on in the same spot in the chart preview video, so give that another watch if you're still not sure where this is.
 
+(The purple line is also marked on the image at the top of this method)
 
-(The purple line is also marked on the image at the top of this method)   
-
-![YCo dead or arive](YCo_lcon.png  "Y.Co lane cover on")
+![YCo dead or arive](YCo_lcon.png "Y.Co lane cover on")
 
 **GOLDEN RULE: DO NOT TOUCH THE CHART AT ALL DURING THE 822BPM SECTION!**
 
-## Method 2: DOLCE.
+## ★★★★★★ Method 2: DOLCE.
 
 Read Method 1 for context, as Method 1 is essentially just my easier take on DOLCE.'s method.
 

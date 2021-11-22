@@ -1,13 +1,14 @@
 # ruin of opals
 
 ## Chart Preview
+
 Chart played by LUMINE
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/nUUpc8BdOiw/0.jpg)](https://youtu.be/nUUpc8BdOiw?t=39 "Beatmania IIDX 26 Rootage ruin of opals SPA 正規")
 
-## Put up your GN a bit
+## ★★☆☆☆ Put up your GN a bit
 
-Although ruin of opals has some wacky soflan at the beginning and end, the majority of the chart is at 360BPM, and the chart starts at 355BPM. A perfect Base GN adjustment would be ``360/355 * your regular GN``, but I personally just shift it up by about 5.
+Although ruin of opals has some wacky soflan at the beginning and end, the majority of the chart is at 360BPM, and the chart starts at 355BPM. A perfect Base GN adjustment would be `360/355 * your regular GN`, but I personally just shift it up by about 5.
 
 The speedup to 390BPM is quite short and extremely manageable (even moreso if you shift your GN up a bit).
 

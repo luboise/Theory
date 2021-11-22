@@ -1,11 +1,12 @@
 # Surf on the Light
 
 ## Chart Preview
+
 Chart played by IIDXtom
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/xzHkbUcNJo8/0.jpg)](https://youtu.be/xzHkbUcNJo8?t=111 "beatmania IIDX 24 SINOBUZ Surf on the Light SPA 正規")
 
-## No tech (optional gear shift)
+## ★★☆☆☆ No tech (optional gear shift)
 
 This chart just has a slowdown at the end, meaning no Base GN tech required.
 

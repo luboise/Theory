@@ -1,11 +1,12 @@
 # NNRT
 
 ## Chart Preview
+
 Chart played by ALEGA
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/uXsUaB-85sA/0.jpg)](https://youtu.be/uXsUaB-85sA?t=21 "[IIDX 24 SINOBUZ] NNRT SPA 正規")
 
-## Float Float Float!
+## ☆☆☆☆☆ Float Float Float!
 
 The song starts at 101BPM, has a large break before jumping to 202BPM. Float any time during that break.
 

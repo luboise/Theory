@@ -16,11 +16,11 @@ Marie Antoinette goes from 215BPM -> 205BPM -> 248BPM.
 2. Before the **second BPM change** (205 -> 248), **gear shift down by two** ticks (circled second in blue below)
 3. (optional) Tweak your lane cover so the final green number is closer
 
-This method is very effective if your numbers work out, but can be less consistent than using something like a [LIFT Substitute](../../tech\LIFTSub.md).
+This method is very effective if your numbers work out, but can be less consistent than using something like a [LIFT Substitute](../../tech/LIFTSub.md).
 
 ## ★★★★☆ Method 2: Double lane cover removal
 
-Make sure to use regular hi-speed for this strategy, as disabling your lane cover in recent styles floats. It is also recommended to use a [LIFT Substitute](../../tech\LIFTSub.md).
+Make sure to use regular hi-speed for this strategy, as disabling your lane cover in recent styles floats. It is also recommended to use a [LIFT Substitute](../../tech/LIFTSub.md).
 
 The first change is towards the beginning, and can be (but doesn't need to be) mitigated by moving your lane cover a small amount in the circled gap.
 

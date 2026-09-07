@@ -10,7 +10,7 @@ Chart played by DOLCE.
 
 As Ah Hah Yeah just goes from 115BPM -> 230BPM -> 115BPM -> 230BPM, you can put a lane cover halfway down your playfield, disable it for the speedup and just do that again.
 
-1. (optional) Combine your regular LIFT and SUDDEN+ into just a LIFT (see [LIFT Substitution](../../tech\LIFTSub.md))
+1. (optional) Combine your regular LIFT and SUDDEN+ into just a LIFT (see [LIFT Substitution](../../tech/LIFTSub.md))
 2. Use regular hi-speed (NOT FLOATING!)
 3. Put your SUDDEN+ halfway between the top of the playfield and your LIFT
 4. Disable it before the first speedup

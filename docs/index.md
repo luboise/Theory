@@ -1,8 +1,11 @@
 # Theory
 
-Welcome to Theory, an all encompassing soflan guide for IIDX 27 charts and earlier. Here you will find soflan techniques, as well as varying individual guides for soflan charts that I hope you will find useful.
+Welcome to Theory, an all encompassing soflan guide for IIDX 32 charts and earlier. Here you will find soflan techniques, as well as varying individual guides for soflan charts that I hope you will find useful.
 
-This website was previously hosted at [http://testtheory.altervista.org](http://testtheory.altervista.org) and should now correctly link here.
+This website was previously hosted at `https://theory.tools`, which now seems to be someone's academic page for their these or something? (I forgot to renew the domain :skull:)
+
+This website was also previously hosted at [http://testtheory.altervista.org](http://testtheory.altervista.org) and should now correctly link here.
+
 
 ## Aim
 
@@ -16,7 +19,7 @@ Any images of charts you see (the images that I usually circle in blue and purpl
 
 ## Contact/Contribution
 
-Theory.tools is open source, and if you have any tech that you would like to see on it please check out the [how to contribute](resources\help\help.md) page.
+Theory.tools is open source, and if you have any tech that you would like to see on it please check out the [how to contribute](resources/help/help.md) page.
 
 If you have any feedback about the guide you can also contact me at
 

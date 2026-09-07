@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +10,15 @@
         <link rel="shortcut icon" href="img/favicon.ico">
         <title>Theory</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body class="homepage">
@@ -25,7 +26,7 @@
             <div class="container">
                 <a class="navbar-brand" href=".">Theory</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -33,11 +34,11 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Techniques and Info <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Techniques and Info</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -73,8 +74,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chart Directory <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Chart Directory</a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
@@ -406,13 +407,43 @@
 </li>
     </ul>
   </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">IIDX32 - Pinky Crush</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="resources/chartdirectory/iidx32/skratcheducation/" class="dropdown-item">Skratch Education Lv-1</a>
+</li>
+            
+<li>
+    <a href="resources/chartdirectory/iidx32/sisyphus/" class="dropdown-item">SISYPHUS</a>
+</li>
+            
+<li>
+    <a href="resources/chartdirectory/iidx32/space_in_time/" class="dropdown-item">Space in Time</a>
+</li>
+            
+<li>
+    <a href="resources/chartdirectory/iidx32/hdv/" class="dropdown-item">hora de verdad</a>
+</li>
+            
+<li>
+    <a href="resources/chartdirectory/iidx32/kakugoseyo/" class="dropdown-item">覚悟せよ！エンタンメ～ン ～より身の切り売り自暴自棄版～</a>
+</li>
+            
+<li>
+    <a href="resources/chartdirectory/iidx32/hao/" class="dropdown-item">ハオ</a>
+</li>
+    </ul>
+  </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -433,28 +464,28 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#theory" class="nav-link">Theory</a>
+            <li class="nav-item" data-bs-level="1"><a href="#theory" class="nav-link">Theory</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#aim" class="nav-link">Aim</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#resources" class="nav-link">Resources</a>
+            <li class="nav-item" data-bs-level="2"><a href="#aim" class="nav-link">Aim</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#contactcontribution" class="nav-link">Contact/Contribution</a>
+            <li class="nav-item" data-bs-level="2"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#contactcontribution" class="nav-link">Contact/Contribution</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -466,8 +497,9 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="theory">Theory</h1>
-<p>Welcome to Theory, an all encompassing soflan guide for IIDX 27 charts and earlier. Here you will find soflan techniques, as well as varying individual guides for soflan charts that I hope you will find useful.</p>
-<p>This website was previously hosted at <a href="http://testtheory.altervista.org">http://testtheory.altervista.org</a> and should now correctly link here.</p>
+<p>Welcome to Theory, an all encompassing soflan guide for IIDX 32 charts and earlier. Here you will find soflan techniques, as well as varying individual guides for soflan charts that I hope you will find useful.</p>
+<p>This website was previously hosted at <code>https://theory.tools</code>, which now seems to be someone's academic page for their these or something? (I forgot to renew the domain :skull:)</p>
+<p>This website was also previously hosted at <a href="http://testtheory.altervista.org">http://testtheory.altervista.org</a> and should now correctly link here.</p>
 <h2 id="aim">Aim</h2>
 <p>The aim of this website is to bridge the gap between soflan players and players who either don't have the time for finding out techniques for themselves, or don't find the enjoyment in doing so. Whether you are just here because theres a lamp you want or you want to improve, this site should have what you want.</p>
 <h2 id="resources">Resources</h2>
@@ -488,19 +520,20 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = ".",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -520,7 +553,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
@@ -560,6 +593,6 @@
 </html>
 
 <!--
-MkDocs version : 1.2.1
-Build Date UTC : 2022-07-10 09:01:53.229688+00:00
+MkDocs version : 1.6.1
+Build Date UTC : 2026-09-07 22:24:53.111560+00:00
 -->
